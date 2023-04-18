@@ -1,0 +1,17 @@
+Classe Animal:
+Crie uma classe chamada Animal que possua os seguintes atributos privados:
+nome: uma string que representa o nome do animal.
+idade: um inteiro que representa a idade do animal.
+A classe Animal deve ter um método público chamado fazer_som() que imprime uma mensagem genérica de som do animal. Além disso, a classe Animal deve ter um construtor que recebe o nome e a idade do animal como parâmetros.
+
+Classe Mamifero:
+Crie uma classe chamada Mamifero que herde da classe Animal. A classe Mamifero deve ter os seguintes atributos privados adicionais:
+tipo_pelo: uma string que representa o tipo de pelo do mamífero.
+especie: uma string que representa o gênero do mamífero.
+A classe Mamifero deve ter um método público chamado amamentar() que imprime uma mensagem indicando que o mamífero está amamentando. Além disso, a classe Mamifero deve ter um construtor que recebe o nome, a idade, o tipo de pelo e a especie do mamífero como parâmetros.
+
+Classe Cachorro:
+Crie uma classe chamada Cachorro que herde da classe Mamifero. A classe Cachorro deve ter os seguintes atributos privados adicionais:
+raca: uma string que representa a raça do cachorro.
+cor: uma string que representa a cor do pelo do cachorro.
+A classe Cachorro deve ter um método público chamado latir() que imprime uma mensagem indicando que o cachorro está latindo. Além disso, a classe Cachorro deve ter um construtor que recebe o nome, a idade, o tipo de pelo, especie, a raça e a cor do pelo do cachorro como parâmetros.
